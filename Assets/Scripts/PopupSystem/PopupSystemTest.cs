@@ -5,6 +5,11 @@ public class PopupSystemTest : MonoBehaviour
 {
     public PopupManager popupManager;
 
+    private void Start()
+    {
+       // ShowPopup();
+    }
+
     public void ShowPopup()
     {
         PopupView view = null;
